@@ -1,4 +1,4 @@
- require 'rails_helper'
+require 'rails_helper'
  
 describe 'new post' do
   it 'ensures that the form route works with the /new action' do
@@ -22,5 +22,4 @@ describe 'new post' do
     expect(page).to have_content('My post title')
     expect(page).to have_content('My post description')
   end
-  
 end
